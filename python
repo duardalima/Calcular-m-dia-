@@ -1,0 +1,11 @@
+#Obter as duas notas de prova
+nota 1 = float(input("Digite a primeira nota:"))
+nota 2 = float(input("Digite a segunda nota:"))
+#Calcular média aritmética
+media =(nota1+nota2)/2
+#Se a media for igual ou maior que 7, o aluno foi reprovado 
+If media >= 7:
+   print("Aprovado")
+#Se não, foi reprovado
+Else:
+   print("Reprovado")
